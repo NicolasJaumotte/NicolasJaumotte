@@ -4,7 +4,7 @@ Je cherche à rejoindre une équipe en **cybersécurité**. Je m’intéresse à
 
 ## Détection et investigation
 
-**SSH Auth Triage** — Un exercice sur des journaux fictifs. Un détecteur Python repère des échecs SSH suivis d’un succès. Le rapport distingue ce qui a été observé, les hypothèses possibles et les preuves à rechercher.
+**[SSH Auth Triage](https://github.com/NicolasJaumotte/ssh-auth-triage)** — Un exercice sur des journaux fictifs. Un détecteur Python repère des échecs SSH suivis d’un succès. Le rapport distingue ce qui a été observé, les hypothèses possibles et les preuves à rechercher.
 
 ## Projet logiciel
 
