@@ -1,6 +1,6 @@
-<a href="https://www.linkedin.com/in/nicolas-jaumotte-71743a399/"><img src="./cyber-hero.svg" width="100%" alt="Nicolas Jaumotte — Suivre le signal. Une pile lumineuse (journaux, corrélation, alerte) et un terminal qui liste ses projets."></a>
+<a href="https://www.linkedin.com/in/nicolas-jaumotte-71743a399/"><img src="./cyber-hero.svg" width="100%" alt="Nicolas Jaumotte — cybersécurité. Une pile lumineuse (journaux, corrélation, alerte) et un terminal qui liste ses projets."></a>
 
-**Étudiant en informatique à l’EPITA, je cherche un stage ou une alternance en cybersécurité défensive.** Ce qui m’intéresse : partir d’une alerte, retrouver les faits et savoir quelle vérification faire ensuite. Je code en **C**, **C#** et **Python**.
+**Étudiant en informatique à l’EPITA, je me spécialise en cybersécurité défensive.** Ce qui m’intéresse : partir d’une alerte, retrouver les faits et savoir quelle vérification faire ensuite. Je code en **C**, **C#** et **Python**.
 
 <a href="https://github.com/NicolasJaumotte/surface-audit"><img src="./card-surface.svg" width="100%" alt="Surface : rapport fictif avec un point prioritaire, deux à vérifier, un OK et un non évalué."></a>
 

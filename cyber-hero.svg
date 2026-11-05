@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="t d">
-<title id="t">Nicolas Jaumotte — Suivre le signal</title>
+<title id="t">Nicolas Jaumotte — cybersécurité</title>
 <desc id="d">Bannière cyber : une pile de couches lumineuses (journaux, corrélation, alerte) traversée par un signal, à côté d’un terminal qui liste ses projets : Surface, OCR, Survivors et RiftMind.</desc>
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b16"/><stop offset=".55" stop-color="#03060c"/><stop offset="1" stop-color="#070514"/></linearGradient>
@@ -156,13 +156,12 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans M
 <path d="M857.5,211.6 L860.0,234.0 L860.0,182.0 L860.0,105.0" fill="none" stroke="#3dff9a" stroke-opacity=".75" stroke-dasharray="4 5" filter="url(#glow)"/>
 <circle r="5.0" fill="#fff" filter="url(#glow2)" class="packet" style="offset-path:path('M857.5,211.6 L860.0,234.0 L860.0,182.0 L860.0,105.0')"/>
 <text x="56" y="70" fill="#3dff9a" font-size="15" letter-spacing="1">nicolas@epita:~$ <tspan fill="#dff8ff">whoami</tspan></text>
-<text x="56" y="112" fill="#22e5ff" font-size="26" font-weight="700" letter-spacing="7" filter="url(#glow)">NICOLAS JAUMOTTE</text>
 <g>
-<text x="56" y="190" font-size="60" font-weight="800" fill="#ff3d64" class="glitch1" opacity="0">Suivre le signal.</text>
-<text x="56" y="190" font-size="60" font-weight="800" fill="#22e5ff" class="glitch2" opacity="0">Suivre le signal.</text>
-<text x="56" y="190" font-size="60" font-weight="800" fill="#dff8ff" letter-spacing="-1" filter="url(#glow)">Suivre le signal<tspan fill="#3dff9a">.</tspan><tspan fill="#3dff9a" class="blink">_</tspan></text>
+<text x="56" y="160" font-size="60" font-weight="800" fill="#ff3d64" class="glitch1" opacity="0">Nicolas Jaumotte</text>
+<text x="56" y="160" font-size="60" font-weight="800" fill="#22e5ff" class="glitch2" opacity="0">Nicolas Jaumotte</text>
+<text x="56" y="160" font-size="60" font-weight="800" fill="#dff8ff" letter-spacing="-1" filter="url(#glow)">Nicolas Jaumotte<tspan fill="#3dff9a" class="blink">_</tspan></text>
 </g>
-<text x="56" y="232" fill="#6b8a9a" font-size="16">Étudiant EPITA · cybersécurité défensive</text>
+<text x="56" y="212" fill="#6b8a9a" font-size="16">Étudiant EPITA · cybersécurité défensive · C, C#, Python</text>
 <g><rect x="56" y="259" width="46" height="26" rx="4" fill="#22e5ff" fill-opacity=".08" stroke="#22e5ff" stroke-opacity=".7"/><text x="65" y="277" fill="#22e5ff" font-size="13" letter-spacing="1.5">SOC</text></g>
 <g><rect x="111.9" y="259" width="102" height="26" rx="4" fill="#3dff9a" fill-opacity=".08" stroke="#3dff9a" stroke-opacity=".7"/><text x="120.9" y="277" fill="#3dff9a" font-size="13" letter-spacing="1.5">DÉTECTION</text></g>
 <g><rect x="223.6" y="259" width="102" height="26" rx="4" fill="#ffb84d" fill-opacity=".08" stroke="#ffb84d" stroke-opacity=".7"/><text x="232.6" y="277" fill="#ffb84d" font-size="13" letter-spacing="1.5">AUDIT WEB</text></g>
@@ -173,7 +172,7 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans M
 <text x="70" y="399" font-size="13" class="l3"><tspan fill="#3dff9a" font-weight="700">ocr-word-search/</tspan><tspan x="256" fill="#6b8a9a">C · réseau de neurones</tspan></text>
 <text x="70" y="418" font-size="13" class="l4"><tspan fill="#ff3d64" font-weight="700">survivors/</tspan><tspan x="256" fill="#6b8a9a">C# · Unity · multijoueur</tspan></text>
 <text x="70" y="437" font-size="13" class="l5"><tspan fill="#ffb84d" font-weight="700">riftmind/</tspan><tspan x="256" fill="#6b8a9a">app LoL · Windows/macOS</tspan></text>
-<g class="l6"><text x="70" y="460" font-size="13" fill="#3dff9a">▸ en recherche : stage / alternance cybersécurité</text><rect x="464" y="449" width="8" height="13" fill="#3dff9a" class="blink"/></g>
+<g class="l6"><text x="70" y="460" font-size="13" fill="#3dff9a">▸ python3 surface.py github.com</text><rect x="318" y="449" width="8" height="13" fill="#3dff9a" class="blink"/></g>
 <path d="M14,36 V14 H36" fill="none" stroke="#22e5ff" stroke-width="2" stroke-opacity=".8"/>
 <path d="M1186,36 V14 H1164" fill="none" stroke="#22e5ff" stroke-width="2" stroke-opacity=".8"/>
 <path d="M14,464 V486 H36" fill="none" stroke="#22e5ff" stroke-width="2" stroke-opacity=".8"/>
