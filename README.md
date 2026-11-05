@@ -1,19 +1,19 @@
-![Nicolas Jaumotte — Cybersécurité, détection et investigation. Illustration isométrique d’un signal qui ressort de plusieurs couches de journaux.](./cyber-scene.svg)
+![Nicolas Jaumotte — Cybersécurité, détection et investigation. Un signal traverse des couches de journaux dans une illustration isométrique.](./cyber-scene.svg)
 
-Je cherche un **stage, une alternance ou un premier poste en cybersécurité**. Ce qui m’intéresse : remonter d’une alerte aux faits, puis expliquer ce qu’on peut en conclure.
+**Je cherche un stage, une alternance ou un premier poste en cybersécurité.** Ce qui m’intéresse : remonter d’une alerte aux faits, puis expliquer ce qu’on peut en conclure.
 
-## 01 · Enquête sur une connexion SSH
+[Voir l’enquête ↓](#01--du-journal-à-lenquête) · [Essayer RiftMind ↓](#02--du-code-à-lapplication) · [Me contacter sur LinkedIn ↗](https://www.linkedin.com/in/nicolas-jaumotte-10b63a449/)
 
-**Cinq échecs, puis une connexion réussie. Est-ce suspect ?**
+## 01 · Du journal à l’enquête
 
-[SSH Auth Triage](https://github.com/NicolasJaumotte/ssh-auth-triage) est un exercice sur des **données fictives**. SSH sert à se connecter à un serveur à distance. Dans le labo, un script Python repère une séquence inhabituelle ; le rapport propose des vérifications pour savoir si la connexion était légitime.
+![Chronologie du labo : cinq échecs SSH dès 09:10, une connexion réussie à 09:11:10, puis une alerte à examiner.](./ssh-timeline.svg)
 
-[Lire le rapport](https://github.com/NicolasJaumotte/ssh-auth-triage#rapport-de-triage) · [Voir le code Python](https://github.com/NicolasJaumotte/ssh-auth-triage/blob/main/lab.py)
+**Est-ce que quelqu’un a simplement oublié son mot de passe ?** Dans [SSH Auth Triage](https://github.com/NicolasJaumotte/ssh-auth-triage), un script Python repère cette séquence sur un serveur fictif. Le rapport explique ce qu’il faudrait vérifier avant de conclure à une intrusion. SSH sert à se connecter à un serveur à distance.
 
-## 02 · Un produit à essayer
+[Lire le rapport de triage ↗](https://github.com/NicolasJaumotte/ssh-auth-triage#rapport-de-triage) · [Voir le détecteur Python ↗](https://github.com/NicolasJaumotte/ssh-auth-triage/blob/main/lab.py)
 
-**[RiftMind](https://github.com/njaumotte/riftmind/releases/latest)** est une application Windows et macOS pour League of Legends. Elle propose des builds et des runes avant la partie, puis affiche des informations comme l’or manquant pour le prochain achat dans un panneau personnalisable.
+## 02 · Du code à l’application
 
----
+**RiftMind** est une application pour League of Legends sur Windows et macOS. Avant la partie, elle affiche des builds et des runes. En jeu, un panneau personnalisable indique, par exemple, combien d’or il manque pour le prochain achat.
 
-**[Me contacter sur LinkedIn ↗](https://www.linkedin.com/in/nicolas-jaumotte-10b63a449/)**
+[Télécharger RiftMind ↗](https://github.com/njaumotte/riftmind/releases/latest)
