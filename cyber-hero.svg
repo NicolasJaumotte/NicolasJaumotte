@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="t d">
 <title id="t">Nicolas Jaumotte — Suivre le signal</title>
-<desc id="d">Bannière cyber : une pile de couches lumineuses (journaux, corrélation, alerte) traversée par un signal, à côté d’un terminal qui montre cinq échecs SSH puis une connexion réussie.</desc>
+<desc id="d">Bannière cyber : une pile de couches lumineuses (journaux, corrélation, alerte) traversée par un signal, à côté d’un terminal qui liste ses projets : Surface, OCR, Survivors et RiftMind.</desc>
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b16"/><stop offset=".55" stop-color="#03060c"/><stop offset="1" stop-color="#070514"/></linearGradient>
 <radialGradient id="halo" cx=".72" cy=".45" r=".55"><stop stop-color="#22e5ff" stop-opacity=".22"/><stop offset="1" stop-color="#22e5ff" stop-opacity="0"/></radialGradient>
@@ -167,12 +167,13 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans M
 <g><rect x="111.9" y="259" width="102" height="26" rx="4" fill="#3dff9a" fill-opacity=".08" stroke="#3dff9a" stroke-opacity=".7"/><text x="120.9" y="277" fill="#3dff9a" font-size="13" letter-spacing="1.5">DÉTECTION</text></g>
 <g><rect x="223.6" y="259" width="102" height="26" rx="4" fill="#ffb84d" fill-opacity=".08" stroke="#ffb84d" stroke-opacity=".7"/><text x="232.6" y="277" fill="#ffb84d" font-size="13" letter-spacing="1.5">AUDIT WEB</text></g>
 <g><rect x="335.3" y="259" width="74" height="26" rx="4" fill="#b18cff" fill-opacity=".08" stroke="#b18cff" stroke-opacity=".7"/><text x="344.3" y="277" fill="#b18cff" font-size="13" letter-spacing="1.5">PYTHON</text></g>
-<g><rect x="56" y="312" width="520" height="150" rx="8" fill="#07101c" fill-opacity=".92" stroke="#22e5ff" stroke-opacity=".45"/><rect x="56" y="312" width="520" height="24" rx="8" fill="#22e5ff" fill-opacity=".08"/><circle cx="72" cy="324" r="4" fill="#ff3d64"/><circle cx="86" cy="324" r="4" fill="#ffb84d"/><circle cx="100" cy="324" r="4" fill="#3dff9a"/><text x="564" y="328" fill="#6b8a9a" font-size="11" text-anchor="end">auth.log — web-01 (fictif)</text></g>
-<text x="70" y="360" font-size="13" class="l1"><tspan fill="#6b8a9a">09:10:00</tspan><tspan fill="#ff3d64">  Failed password  deploy  203.0.113.42</tspan></text>
-<text x="70" y="381" font-size="13" class="l2"><tspan fill="#6b8a9a">09:10:15</tspan><tspan fill="#ff3d64">  Failed password  deploy  203.0.113.42</tspan></text>
-<text x="70" y="402" font-size="13" class="l3"><tspan fill="#6b8a9a">09:10:45</tspan><tspan fill="#ff3d64">  Failed password ×3  …</tspan></text>
-<text x="70" y="423" font-size="13" class="l4"><tspan fill="#6b8a9a">09:11:10</tspan><tspan fill="#3dff9a">  Accepted password  deploy  203.0.113.42</tspan></text>
-<g class="l6"><rect x="66" y="429" width="500" height="24" rx="4" fill="#ff3d64" fill-opacity=".14" stroke="#ff3d64" stroke-opacity=".8"/><text x="76" y="446" font-size="13" fill="#ff3d64" font-weight="700">▲ ALERTE  T1110.001 · 5 échecs → succès · à vérifier</text><rect x="550" y="436" width="8" height="12" fill="#ff3d64" class="blink"/></g>
+<g><rect x="56" y="312" width="520" height="150" rx="8" fill="#07101c" fill-opacity=".92" stroke="#22e5ff" stroke-opacity=".45"/><rect x="56" y="312" width="520" height="24" rx="8" fill="#22e5ff" fill-opacity=".08"/><circle cx="72" cy="324" r="4" fill="#ff3d64"/><circle cx="86" cy="324" r="4" fill="#ffb84d"/><circle cx="100" cy="324" r="4" fill="#3dff9a"/><text x="564" y="328" fill="#6b8a9a" font-size="11" text-anchor="end">~/projets</text></g>
+<text x="70" y="358" font-size="13" class="l1"><tspan fill="#3dff9a">$</tspan><tspan fill="#dff8ff"> ls ~/projets</tspan></text>
+<text x="70" y="380" font-size="13" class="l2"><tspan fill="#22e5ff" font-weight="700">surface-audit/</tspan><tspan x="256" fill="#6b8a9a">Python · audit web</tspan></text>
+<text x="70" y="399" font-size="13" class="l3"><tspan fill="#3dff9a" font-weight="700">ocr-word-search/</tspan><tspan x="256" fill="#6b8a9a">C · réseau de neurones</tspan></text>
+<text x="70" y="418" font-size="13" class="l4"><tspan fill="#ff3d64" font-weight="700">survivors/</tspan><tspan x="256" fill="#6b8a9a">C# · Unity · multijoueur</tspan></text>
+<text x="70" y="437" font-size="13" class="l5"><tspan fill="#ffb84d" font-weight="700">riftmind/</tspan><tspan x="256" fill="#6b8a9a">app LoL · Windows/macOS</tspan></text>
+<g class="l6"><text x="70" y="460" font-size="13" fill="#3dff9a">▸ en recherche : stage / alternance cybersécurité</text><rect x="464" y="449" width="8" height="13" fill="#3dff9a" class="blink"/></g>
 <path d="M14,36 V14 H36" fill="none" stroke="#22e5ff" stroke-width="2" stroke-opacity=".8"/>
 <path d="M1186,36 V14 H1164" fill="none" stroke="#22e5ff" stroke-width="2" stroke-opacity=".8"/>
 <path d="M14,464 V486 H36" fill="none" stroke="#22e5ff" stroke-width="2" stroke-opacity=".8"/>

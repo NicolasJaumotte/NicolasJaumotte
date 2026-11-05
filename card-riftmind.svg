@@ -40,7 +40,7 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans M
 <rect width="1200" height="300" rx="14" fill="url(#bg)"/><rect width="1200" height="300" rx="14" fill="url(#dots)"/>
 <rect x=".5" y=".5" width="1199" height="299" rx="14" fill="none" stroke="#ffb84d" stroke-opacity=".45"/>
 <rect x="0" y="40" width="4" height="220" fill="#ffb84d" filter="url(#glow)"/>
-<text x="48" y="62" fill="#ffb84d" font-size="14" letter-spacing="4">03 · APPLICATION À ESSAYER</text>
+<text x="48" y="62" fill="#ffb84d" font-size="14" letter-spacing="4">04 · APPLICATION À ESSAYER</text>
 <text x="48" y="112" fill="#dff8ff" font-size="40" font-weight="800" filter="url(#glow)">RiftMind</text>
 <text x="48" y="156" fill="#6b8a9a" font-size="16">Builds et runes avant la partie.</text>
 <text x="48" y="182" fill="#6b8a9a" font-size="16">Overlay en jeu : or manquant, panneaux mobiles.</text>

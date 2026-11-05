@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="t d">
+<title id="t">Compétences de Nicolas Jaumotte</title>
+<desc id="d">Langages : C, C#, Python. Cybersécurité : audit web, en-têtes HTTP, OWASP. Développement : réseaux de neurones, traitement d’image, Unity, multijoueur, Git, tests, intégration continue.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b16"/><stop offset=".55" stop-color="#03060c"/><stop offset="1" stop-color="#070514"/></linearGradient>
+<radialGradient id="halo" cx=".72" cy=".45" r=".55"><stop stop-color="#22e5ff" stop-opacity=".22"/><stop offset="1" stop-color="#22e5ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="halo2" cx=".15" cy=".1" r=".5"><stop stop-color="#7a3dff" stop-opacity=".16"/><stop offset="1" stop-color="#7a3dff" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0d2a3d" stop-opacity="0"/><stop offset="1" stop-color="#22e5ff" stop-opacity=".55"/></linearGradient>
+<linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#22e5ff" stop-opacity="0"/><stop offset=".5" stop-color="#22e5ff" stop-opacity=".16"/><stop offset="1" stop-color="#22e5ff" stop-opacity="0"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#22e5ff" opacity=".13"/></pattern>
+<pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".28"/></pattern>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+@media (prefers-reduced-motion:no-preference){
+.scan{animation:scan 6s linear infinite}
+.floor{animation:floor 2.4s linear infinite}
+.blink{animation:blink 1.4s steps(2,start) infinite}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
+.spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+.glitch1{animation:g1 5s steps(1) infinite}
+.glitch2{animation:g2 5s steps(1) infinite}
+.type{animation:type 1.2s steps(30) both}
+.l1{animation:appear .3s .3s both}.l2{animation:appear .3s .6s both}.l3{animation:appear .3s .9s both}
+.l4{animation:appear .3s 1.2s both}.l5{animation:appear .3s 1.5s both}.l6{animation:appear .3s 2s both}
+.l7{animation:appear .3s 2.5s both}
+.packet{animation:packet 3.2s ease-in-out infinite}
+}
+@keyframes scan{from{transform:translateY(-140px)}to{transform:translateY(620px)}}
+@keyframes floor{from{transform:translateY(0)}to{transform:translateY(28px)}}
+@keyframes blink{to{visibility:hidden}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes g1{0%,92%,100%{transform:translate(0,0);opacity:0}93%{transform:translate(-4px,1px);opacity:.85}95%{transform:translate(3px,-1px);opacity:.85}97%{opacity:0}}
+@keyframes g2{0%,92%,100%{transform:translate(0,0);opacity:0}93%{transform:translate(4px,-1px);opacity:.85}96%{transform:translate(-2px,1px);opacity:.85}98%{opacity:0}}
+@keyframes appear{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+@keyframes packet{0%{offset-distance:0%;opacity:0}10%{opacity:1}90%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style><style>
+@media (prefers-reduced-motion:no-preference){
+.sweep{animation:sweep 4.2s steps(7) infinite}
+.spin2{animation:spin2 4s linear infinite}
+.bar{animation:bar 1.4s ease-out both;transform-box:fill-box;transform-origin:left}
+}
+@keyframes sweep{from{transform:translateX(0)}to{transform:translateX(182px)}}
+@keyframes spin2{to{transform:rotate(-360deg)}}
+@keyframes bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+</style>
+<rect width="1200" height="330" rx="14" fill="url(#bg)"/><rect width="1200" height="330" rx="14" fill="url(#dots)"/>
+<rect x=".5" y=".5" width="1199" height="329" rx="14" fill="none" stroke="#b18cff" stroke-opacity=".45"/>
+<text x="48" y="58" fill="#b18cff" font-size="14" letter-spacing="4">STACK · COMPÉTENCES</text>
+<text x="1152" y="58" fill="#6b8a9a" font-size="13" text-anchor="end"><tspan fill="#3dff9a">$</tspan> cat skills.txt<tspan fill="#3dff9a" class="blink">_</tspan></text>
+<g class="l1"><rect x="48" y="80" width="352" height="126" rx="10" fill="#22e5ff" fill-opacity=".06" stroke="#22e5ff" stroke-opacity=".75"/><text x="70" y="126" fill="#22e5ff" font-size="34" font-weight="800" filter="url(#glow)">C</text><text x="70" y="156" fill="#dff8ff" font-size="13">OCR · réseau de neurones</text><text x="70" y="178" fill="#6b8a9a" font-size="12">Makefile · -Wall -Wextra</text><rect x="70" y="190" width="308" height="3" rx="1.5" fill="#22e5ff" fill-opacity=".25"/><rect x="70" y="190" width="308" height="3" rx="1.5" fill="#22e5ff" class="bar" style="animation-delay:0.30s"/></g>
+<g class="l2"><rect x="424" y="80" width="352" height="126" rx="10" fill="#ff3d64" fill-opacity=".06" stroke="#ff3d64" stroke-opacity=".75"/><text x="446" y="126" fill="#ff3d64" font-size="34" font-weight="800" filter="url(#glow)">C#</text><text x="446" y="156" fill="#dff8ff" font-size="13">Survivors · Unity</text><text x="446" y="178" fill="#6b8a9a" font-size="12">gameplay · réseau · UI</text><rect x="446" y="190" width="308" height="3" rx="1.5" fill="#ff3d64" fill-opacity=".25"/><rect x="446" y="190" width="308" height="3" rx="1.5" fill="#ff3d64" class="bar" style="animation-delay:0.55s"/></g>
+<g class="l3"><rect x="800" y="80" width="352" height="126" rx="10" fill="#3dff9a" fill-opacity=".06" stroke="#3dff9a" stroke-opacity=".75"/><text x="822" y="126" fill="#3dff9a" font-size="34" font-weight="800" filter="url(#glow)">Python</text><text x="822" y="156" fill="#dff8ff" font-size="13">Surface · audit web</text><text x="822" y="178" fill="#6b8a9a" font-size="12">tests · CI GitHub Actions</text><rect x="822" y="190" width="308" height="3" rx="1.5" fill="#3dff9a" fill-opacity=".25"/><rect x="822" y="190" width="308" height="3" rx="1.5" fill="#3dff9a" class="bar" style="animation-delay:0.80s"/></g>
+<text x="48" y="245" fill="#ffb84d" font-size="12" letter-spacing="3" class="l4">CYBER</text>
+<g class="l4"><rect x="120" y="227" width="167" height="26" rx="4" fill="#ffb84d" fill-opacity=".08" stroke="#ffb84d" stroke-opacity=".7"/><text x="129" y="245" fill="#ffb84d" font-size="13" letter-spacing="1.5">audit web passif</text></g>
+<g class="l4"><rect x="297" y="227" width="139" height="26" rx="4" fill="#ffb84d" fill-opacity=".08" stroke="#ffb84d" stroke-opacity=".7"/><text x="306" y="245" fill="#ffb84d" font-size="13" letter-spacing="1.5">en-têtes HTTP</text></g>
+<g class="l4"><rect x="446" y="227" width="148" height="26" rx="4" fill="#ffb84d" fill-opacity=".08" stroke="#ffb84d" stroke-opacity=".7"/><text x="455" y="245" fill="#ffb84d" font-size="13" letter-spacing="1.5">cookies · CORS</text></g>
+<g class="l4"><rect x="604" y="227" width="65" height="26" rx="4" fill="#ffb84d" fill-opacity=".08" stroke="#ffb84d" stroke-opacity=".7"/><text x="613" y="245" fill="#ffb84d" font-size="13" letter-spacing="1.5">OWASP</text></g>
+<text x="48" y="289" fill="#b18cff" font-size="12" letter-spacing="3" class="l5">DEV</text>
+<g class="l5"><rect x="120" y="271" width="195" height="26" rx="4" fill="#b18cff" fill-opacity=".08" stroke="#b18cff" stroke-opacity=".7"/><text x="129" y="289" fill="#b18cff" font-size="13" letter-spacing="1.5">réseaux de neurones</text></g>
+<g class="l5"><rect x="325" y="271" width="185" height="26" rx="4" fill="#b18cff" fill-opacity=".08" stroke="#b18cff" stroke-opacity=".7"/><text x="334" y="289" fill="#b18cff" font-size="13" letter-spacing="1.5">traitement d’image</text></g>
+<g class="l5"><rect x="520" y="271" width="65" height="26" rx="4" fill="#b18cff" fill-opacity=".08" stroke="#b18cff" stroke-opacity=".7"/><text x="529" y="289" fill="#b18cff" font-size="13" letter-spacing="1.5">Unity</text></g>
+<g class="l5"><rect x="595" y="271" width="120" height="26" rx="4" fill="#b18cff" fill-opacity=".08" stroke="#b18cff" stroke-opacity=".7"/><text x="604" y="289" fill="#b18cff" font-size="13" letter-spacing="1.5">multijoueur</text></g>
+<g class="l5"><rect x="725" y="271" width="46" height="26" rx="4" fill="#b18cff" fill-opacity=".08" stroke="#b18cff" stroke-opacity=".7"/><text x="734" y="289" fill="#b18cff" font-size="13" letter-spacing="1.5">Git</text></g>
+<g class="l5"><rect x="781" y="271" width="65" height="26" rx="4" fill="#b18cff" fill-opacity=".08" stroke="#b18cff" stroke-opacity=".7"/><text x="790" y="289" fill="#b18cff" font-size="13" letter-spacing="1.5">tests</text></g>
+<rect class="scan" x="0" y="0" width="1200" height="90" fill="url(#scan)"/>
+<rect width="1200" height="330" rx="14" fill="url(#lines)" opacity=".3"/>
+</svg>
