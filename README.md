@@ -1,19 +1,33 @@
-![Nicolas Jaumotte — Cybersécurité, détection et investigation. Un signal traverse des couches de journaux dans une illustration isométrique.](https://raw.githubusercontent.com/NicolasJaumotte/NicolasJaumotte/d4732c67b8479290d916fec3bfbaf6b9dfb8b136/cyber-scene.svg)
+![Nicolas Jaumotte — Suivre le signal. Couverture illustrée d’un dossier de cybersécurité.](https://raw.githubusercontent.com/NicolasJaumotte/NicolasJaumotte/51f21e315cb69aa0fd7cde64b41eef8003f59f05/dossier-cover.svg)
 
-**Je cherche un stage, une alternance ou un premier poste en cybersécurité.** Ce qui m’intéresse : remonter d’une alerte aux faits, puis expliquer ce qu’on peut en conclure.
+**Étudiant en informatique à l’EPITA, je cherche une opportunité en cybersécurité.** Ce qui m’intéresse : partir d’une alerte, retrouver les faits et savoir quelle vérification faire ensuite.
 
-[Voir l’enquête ↓](#01--du-journal-à-lenquête) · [Essayer RiftMind ↓](#02--du-code-à-lapplication) · [Me contacter sur LinkedIn ↗](https://www.linkedin.com/in/nicolas-jaumotte-10b63a449/)
+[Voir le labo ↓](#01--une-connexion-à-examiner) · [Découvrir RiftMind ↓](#02--une-application-à-essayer) · [Me contacter sur LinkedIn ↗](https://www.linkedin.com/in/nicolas-jaumotte-71743a399/)
 
-## 01 · Du journal à l’enquête
+## 01 · Une connexion à examiner
 
-![Chronologie du labo : cinq échecs SSH dès 09:10, une connexion réussie à 09:11:10, puis une alerte à examiner.](./ssh-timeline.svg)
+[![Labo SSH : cinq échecs, un accès réussi, puis une enquête.](https://raw.githubusercontent.com/NicolasJaumotte/NicolasJaumotte/51f21e315cb69aa0fd7cde64b41eef8003f59f05/ssh-timeline.svg)](https://github.com/NicolasJaumotte/ssh-auth-triage)
 
-**Est-ce que quelqu’un a simplement oublié son mot de passe ?** Dans [SSH Auth Triage](https://github.com/NicolasJaumotte/ssh-auth-triage), un script Python repère cette séquence sur un serveur fictif. Le rapport explique ce qu’il faudrait vérifier avant de conclure à une intrusion. SSH sert à se connecter à un serveur à distance.
+**Cinq refus, puis un accès. Quelqu’un s’est-il simplement trompé de mot de passe ?** Dans ce labo, un détecteur Python signale cette séquence sur des journaux fictifs. Le rapport explique comment faire la différence entre une alerte et un indice de compromission.
 
-[Lire le rapport de triage ↗](https://github.com/NicolasJaumotte/ssh-auth-triage#rapport-de-triage) · [Voir le détecteur Python ↗](https://github.com/NicolasJaumotte/ssh-auth-triage/blob/main/lab.py)
+[Lire le rapport ↗](https://github.com/NicolasJaumotte/ssh-auth-triage#rapport-de-triage) · [Voir le code Python ↗](https://github.com/NicolasJaumotte/ssh-auth-triage/blob/main/lab.py)
 
-## 02 · Du code à l’application
+<details>
+<summary>Comment le détecteur relie les événements</summary>
 
-**RiftMind** est une application pour League of Legends sur Windows et macOS. Avant la partie, elle affiche des builds et des runes. En jeu, un panneau personnalisable indique, par exemple, combien d’or il manque pour le prochain achat.
+Il compte les échecs des 120 dernières secondes pour le même serveur, la même adresse source et le même compte. Si une connexion réussit après au moins cinq échecs, il signale la séquence. Le rapport propose ensuite de vérifier la méthode de connexion et ce qui s’est passé après l’accès.
 
-[Télécharger RiftMind ↗](https://github.com/njaumotte/riftmind/releases/latest)
+</details>
+
+## 02 · Une application à essayer
+
+[![RiftMind sur Windows et macOS, avec une illustration du panneau de prochain achat.](https://raw.githubusercontent.com/NicolasJaumotte/NicolasJaumotte/51f21e315cb69aa0fd7cde64b41eef8003f59f05/case-riftmind.svg)](https://github.com/njaumotte/riftmind/releases/latest)
+
+**RiftMind** est une application compagnon pour League of Legends. Elle propose des builds et des runes avant le match. Pendant la partie, le joueur peut déplacer ou masquer les panneaux qui lui indiquent, par exemple, l’or manquant pour son prochain achat.
+
+[Voir les versions et télécharger ↗](https://github.com/njaumotte/riftmind/releases/latest)
+
+---
+
+**Ce que le labo met en pratique :** Python, analyse de journaux, tests et rédaction d’un rapport de triage.  
+**Pour échanger :** [Nicolas Jaumotte sur LinkedIn ↗](https://www.linkedin.com/in/nicolas-jaumotte-71743a399/)
