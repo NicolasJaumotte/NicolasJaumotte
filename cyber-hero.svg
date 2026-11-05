@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="t d">
+<title id="t">Nicolas Jaumotte — Suivre le signal</title>
+<desc id="d">Bannière cyber : une pile de couches lumineuses (journaux, corrélation, alerte) traversée par un signal, à côté d’un terminal qui montre cinq échecs SSH puis une connexion réussie.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b16"/><stop offset=".55" stop-color="#03060c"/><stop offset="1" stop-color="#070514"/></linearGradient>
+<radialGradient id="halo" cx=".72" cy=".45" r=".55"><stop stop-color="#22e5ff" stop-opacity=".22"/><stop offset="1" stop-color="#22e5ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="halo2" cx=".15" cy=".1" r=".5"><stop stop-color="#7a3dff" stop-opacity=".16"/><stop offset="1" stop-color="#7a3dff" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0d2a3d" stop-opacity="0"/><stop offset="1" stop-color="#22e5ff" stop-opacity=".55"/></linearGradient>
+<linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#22e5ff" stop-opacity="0"/><stop offset=".5" stop-color="#22e5ff" stop-opacity=".16"/><stop offset="1" stop-color="#22e5ff" stop-opacity="0"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#22e5ff" opacity=".13"/></pattern>
+<pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".28"/></pattern>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+@media (prefers-reduced-motion:no-preference){
+.scan{animation:scan 6s linear infinite}
+.floor{animation:floor 2.4s linear infinite}
+.blink{animation:blink 1.4s steps(2,start) infinite}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
+.spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+.glitch1{animation:g1 5s steps(1) infinite}
+.glitch2{animation:g2 5s steps(1) infinite}
+.type{animation:type 1.2s steps(30) both}
+.l1{animation:appear .3s .3s both}.l2{animation:appear .3s .6s both}.l3{animation:appear .3s .9s both}
+.l4{animation:appear .3s 1.2s both}.l5{animation:appear .3s 1.5s both}.l6{animation:appear .3s 2s both}
+.l7{animation:appear .3s 2.5s both}
+.packet{animation:packet 3.2s ease-in-out infinite}
+}
+@keyframes scan{from{transform:translateY(-140px)}to{transform:translateY(620px)}}
+@keyframes floor{from{transform:translateY(0)}to{transform:translateY(28px)}}
+@keyframes blink{to{visibility:hidden}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes g1{0%,92%,100%{transform:translate(0,0);opacity:0}93%{transform:translate(-4px,1px);opacity:.85}95%{transform:translate(3px,-1px);opacity:.85}97%{opacity:0}}
+@keyframes g2{0%,92%,100%{transform:translate(0,0);opacity:0}93%{transform:translate(4px,-1px);opacity:.85}96%{transform:translate(-2px,1px);opacity:.85}98%{opacity:0}}
+@keyframes appear{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+@keyframes packet{0%{offset-distance:0%;opacity:0}10%{opacity:1}90%{opacity:1}100%{offset-distance:100%;opacity:0}}
+</style>
+<rect width="1200" height="500" rx="16" fill="url(#bg)"/>
+<rect width="1200" height="500" rx="16" fill="url(#dots)"/>
+<rect width="1200" height="500" rx="16" fill="url(#halo)"/><rect width="1200" height="500" rx="16" fill="url(#halo2)"/>
+<g opacity=".55">
+<line x1="860" y1="392" x2="-460" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="-358" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="-257" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="-155" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="-54" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="48" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="149" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="251" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="352" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="454" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="555" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="657" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="758" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="860" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="962" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="1063" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="1165" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="1266" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="1368" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="1469" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="1571" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="1672" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="1774" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="1875" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="1977" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="2078" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="860" y1="392" x2="2180" y2="500" stroke="#22e5ff" stroke-opacity=".22"/>
+<g class="floor">
+<line x1="0" y1="396.0" x2="1200" y2="396.0" stroke="#22e5ff" stroke-opacity=".25"/>
+<line x1="0" y1="401.3" x2="1200" y2="401.3" stroke="#22e5ff" stroke-opacity=".25"/>
+<line x1="0" y1="408.2" x2="1200" y2="408.2" stroke="#22e5ff" stroke-opacity=".25"/>
+<line x1="0" y1="417.4" x2="1200" y2="417.4" stroke="#22e5ff" stroke-opacity=".25"/>
+<line x1="0" y1="429.6" x2="1200" y2="429.6" stroke="#22e5ff" stroke-opacity=".25"/>
+<line x1="0" y1="445.6" x2="1200" y2="445.6" stroke="#22e5ff" stroke-opacity=".25"/>
+<line x1="0" y1="466.8" x2="1200" y2="466.8" stroke="#22e5ff" stroke-opacity=".25"/>
+<line x1="0" y1="494.7" x2="1200" y2="494.7" stroke="#22e5ff" stroke-opacity=".25"/>
+</g>
+<rect x="0" y="392" width="1200" height="108" fill="url(#fade)" opacity=".25"/>
+<line x1="0" y1="392" x2="1200" y2="392" stroke="#22e5ff" stroke-opacity=".7" filter="url(#glow)"/>
+</g>
+<g class="spin"><ellipse cx="860" cy="190.0" rx="218" ry="110" fill="none" stroke="#22e5ff" stroke-opacity=".35" stroke-dasharray="3 9"/></g>
+<ellipse cx="860" cy="190.0" rx="188" ry="95" fill="none" stroke="#22e5ff" stroke-opacity=".18"/>
+<g><path d="M710,244 L860,320 L860,334 L710,258 Z" fill="#0a2236" fill-opacity=".9" stroke="#22e5ff" stroke-opacity=".5"/><path d="M1010,244 L860,320 L860,334 L1010,258 Z" fill="#0a2236" fill-opacity=".7" stroke="#22e5ff" stroke-opacity=".5"/><path d="M860,168 L1010,244 L860,320 L710,244 Z" fill="#0a2236" fill-opacity=".55" stroke="#22e5ff" stroke-width="1.6" filter="url(#glow)"/></g>
+<line x1="735.0" y1="231.3" x2="885.0" y2="307.3" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="985.0" y1="231.3" x2="835.0" y2="307.3" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="760.0" y1="218.7" x2="910.0" y2="294.7" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="960.0" y1="218.7" x2="810.0" y2="294.7" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="785.0" y1="206.0" x2="935.0" y2="282.0" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="935.0" y1="206.0" x2="785.0" y2="282.0" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="810.0" y1="193.3" x2="960.0" y2="269.3" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="910.0" y1="193.3" x2="760.0" y2="269.3" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="835.0" y1="180.7" x2="985.0" y2="256.7" stroke="#22e5ff" stroke-opacity=".22"/>
+<line x1="885.0" y1="180.7" x2="735.0" y2="256.7" stroke="#22e5ff" stroke-opacity=".22"/>
+<text x="1026" y="249" fill="#22e5ff" font-size="12" letter-spacing="3" opacity=".9">JOURNAUX</text>
+<line x1="1010" y1="244" x2="1022" y2="244" stroke="#22e5ff" stroke-opacity=".7"/>
+<g><path d="M710,182 L860,258 L860,272 L710,196 Z" fill="#0a2a2a" fill-opacity=".9" stroke="#3dff9a" stroke-opacity=".5"/><path d="M1010,182 L860,258 L860,272 L1010,196 Z" fill="#0a2a2a" fill-opacity=".7" stroke="#3dff9a" stroke-opacity=".5"/><path d="M860,106 L1010,182 L860,258 L710,182 Z" fill="#0a2a2a" fill-opacity=".55" stroke="#3dff9a" stroke-width="1.6" filter="url(#glow)"/></g>
+<line x1="735.0" y1="169.3" x2="885.0" y2="245.3" stroke="#3dff9a" stroke-opacity=".22"/>
+<line x1="985.0" y1="169.3" x2="835.0" y2="245.3" stroke="#3dff9a" stroke-opacity=".22"/>
+<line x1="760.0" y1="156.7" x2="910.0" y2="232.7" stroke="#3dff9a" stroke-opacity=".22"/>
+<line x1="960.0" y1="156.7" x2="810.0" y2="232.7" stroke="#3dff9a" stroke-opacity=".22"/>
+<line x1="785.0" y1="144.0" x2="935.0" y2="220.0" stroke="#3dff9a" stroke-opacity=".22"/>
+<line x1="935.0" y1="144.0" x2="785.0" y2="220.0" stroke="#3dff9a" stroke-opacity=".22"/>
+<line x1="810.0" y1="131.3" x2="960.0" y2="207.3" stroke="#3dff9a" stroke-opacity=".22"/>
+<line x1="910.0" y1="131.3" x2="760.0" y2="207.3" stroke="#3dff9a" stroke-opacity=".22"/>
+<line x1="835.0" y1="118.7" x2="985.0" y2="194.7" stroke="#3dff9a" stroke-opacity=".22"/>
+<line x1="885.0" y1="118.7" x2="735.0" y2="194.7" stroke="#3dff9a" stroke-opacity=".22"/>
+<text x="1026" y="187" fill="#3dff9a" font-size="12" letter-spacing="3" opacity=".9">CORRÉLATION</text>
+<line x1="1010" y1="182" x2="1022" y2="182" stroke="#3dff9a" stroke-opacity=".7"/>
+<g><path d="M710,120 L860,196 L860,210 L710,134 Z" fill="#2a0d1c" fill-opacity=".9" stroke="#ff3d64" stroke-opacity=".5"/><path d="M1010,120 L860,196 L860,210 L1010,134 Z" fill="#2a0d1c" fill-opacity=".7" stroke="#ff3d64" stroke-opacity=".5"/><path d="M860,44 L1010,120 L860,196 L710,120 Z" fill="#2a0d1c" fill-opacity=".55" stroke="#ff3d64" stroke-width="1.6" filter="url(#glow)"/></g>
+<line x1="735.0" y1="107.3" x2="885.0" y2="183.3" stroke="#ff3d64" stroke-opacity=".22"/>
+<line x1="985.0" y1="107.3" x2="835.0" y2="183.3" stroke="#ff3d64" stroke-opacity=".22"/>
+<line x1="760.0" y1="94.7" x2="910.0" y2="170.7" stroke="#ff3d64" stroke-opacity=".22"/>
+<line x1="960.0" y1="94.7" x2="810.0" y2="170.7" stroke="#ff3d64" stroke-opacity=".22"/>
+<line x1="785.0" y1="82.0" x2="935.0" y2="158.0" stroke="#ff3d64" stroke-opacity=".22"/>
+<line x1="935.0" y1="82.0" x2="785.0" y2="158.0" stroke="#ff3d64" stroke-opacity=".22"/>
+<line x1="810.0" y1="69.3" x2="960.0" y2="145.3" stroke="#ff3d64" stroke-opacity=".22"/>
+<line x1="910.0" y1="69.3" x2="760.0" y2="145.3" stroke="#ff3d64" stroke-opacity=".22"/>
+<line x1="835.0" y1="56.7" x2="985.0" y2="132.7" stroke="#ff3d64" stroke-opacity=".22"/>
+<line x1="885.0" y1="56.7" x2="735.0" y2="132.7" stroke="#ff3d64" stroke-opacity=".22"/>
+<text x="1026" y="125" fill="#ff3d64" font-size="12" letter-spacing="3" opacity=".9">ALERTE</text>
+<line x1="1010" y1="120" x2="1022" y2="120" stroke="#ff3d64" stroke-opacity=".7"/>
+
+<g filter="url(#glow2)" class="pulse"><g class="" opacity="1.0"><path d="M826.0,88.0 L860,105.0 L860,131.0 L826.0,114.0 Z" fill="#ff3d64" fill-opacity=".9" stroke="#ff3d64" stroke-opacity=".5"/><path d="M894.0,88.0 L860,105.0 L860,131.0 L894.0,114.0 Z" fill="#ff3d64" fill-opacity=".7" stroke="#ff3d64" stroke-opacity=".5"/><path d="M860,71.0 L894.0,88.0 L860,105.0 L826.0,88.0 Z" fill="#ff3d64" fill-opacity=".55" stroke="#ff3d64" stroke-width="1.6" filter="url(#glow)"/></g></g>
+<circle cx="880.8" cy="212.1" r="1.8" fill="#22e5ff" opacity="0.79"/>
+<circle cx="804.4" cy="220.2" r="1.8" fill="#22e5ff" opacity="0.62"/>
+<circle cx="806.1" cy="217.6" r="1.8" fill="#22e5ff" opacity="0.42"/>
+<circle cx="903.7" cy="213.8" r="1.8" fill="#22e5ff" opacity="0.45"/>
+<circle cx="811.7" cy="259.3" r="1.8" fill="#22e5ff" opacity="0.47"/>
+<circle cx="811.5" cy="234.9" r="1.8" fill="#22e5ff" opacity="0.97"/>
+<circle cx="881.7" cy="242.4" r="1.8" fill="#22e5ff" opacity="0.99"/>
+<circle cx="762.6" cy="238.2" r="1.8" fill="#22e5ff" opacity="0.57"/>
+<circle cx="863.2" cy="199.1" r="1.8" fill="#22e5ff" opacity="0.59"/>
+<circle cx="936.2" cy="243.8" r="1.8" fill="#22e5ff" opacity="0.75"/>
+<circle cx="892" cy="244.7" r="1.8" fill="#22e5ff" opacity="0.73"/>
+<circle cx="860.4" cy="190.6" r="1.8" fill="#22e5ff" opacity="0.52"/>
+<circle cx="890.3" cy="250.6" r="1.8" fill="#22e5ff" opacity="0.59"/>
+<circle cx="875.9" cy="246.4" r="1.8" fill="#22e5ff" opacity="0.58"/>
+<circle cx="871.4" cy="274" r="1.8" fill="#22e5ff" opacity="0.55"/>
+<circle cx="865.9" cy="250.1" r="1.8" fill="#22e5ff" opacity="0.93"/>
+<circle cx="913" cy="245.1" r="1.8" fill="#22e5ff" opacity="0.99"/>
+<circle cx="824" cy="215.8" r="1.8" fill="#22e5ff" opacity="0.85"/>
+<circle cx="819.6" cy="222.2" r="1.8" fill="#22e5ff" opacity="0.42"/>
+<circle cx="848.4" cy="270.3" r="1.8" fill="#22e5ff" opacity="0.74"/>
+<circle cx="927.4" cy="255.5" r="1.8" fill="#22e5ff" opacity="0.82"/>
+<circle cx="861.7" cy="254.6" r="1.8" fill="#22e5ff" opacity="0.67"/>
+<circle cx="777.5" cy="251.6" r="3.2" fill="#ff3d64" filter="url(#glow)"/>
+<circle cx="793.5" cy="243.6" r="3.2" fill="#ff3d64" filter="url(#glow)"/>
+<circle cx="809.5" cy="235.6" r="3.2" fill="#ff3d64" filter="url(#glow)"/>
+<circle cx="825.5" cy="227.6" r="3.2" fill="#ff3d64" filter="url(#glow)"/>
+<circle cx="841.5" cy="219.6" r="3.2" fill="#ff3d64" filter="url(#glow)"/>
+<circle cx="857.5" cy="211.6" r="4.0" fill="#3dff9a" filter="url(#glow)"/>
+<path d="M857.5,211.6 L860.0,234.0 L860.0,182.0 L860.0,105.0" fill="none" stroke="#3dff9a" stroke-opacity=".75" stroke-dasharray="4 5" filter="url(#glow)"/>
+<circle r="5.0" fill="#fff" filter="url(#glow2)" class="packet" style="offset-path:path('M857.5,211.6 L860.0,234.0 L860.0,182.0 L860.0,105.0')"/>
+<text x="56" y="70" fill="#3dff9a" font-size="15" letter-spacing="1">nicolas@epita:~$ <tspan fill="#dff8ff">whoami</tspan></text>
+<text x="56" y="112" fill="#22e5ff" font-size="26" font-weight="700" letter-spacing="7" filter="url(#glow)">NICOLAS JAUMOTTE</text>
+<g>
+<text x="56" y="190" font-size="60" font-weight="800" fill="#ff3d64" class="glitch1" opacity="0">Suivre le signal.</text>
+<text x="56" y="190" font-size="60" font-weight="800" fill="#22e5ff" class="glitch2" opacity="0">Suivre le signal.</text>
+<text x="56" y="190" font-size="60" font-weight="800" fill="#dff8ff" letter-spacing="-1" filter="url(#glow)">Suivre le signal<tspan fill="#3dff9a">.</tspan><tspan fill="#3dff9a" class="blink">_</tspan></text>
+</g>
+<text x="56" y="232" fill="#6b8a9a" font-size="16">Étudiant EPITA · cybersécurité défensive</text>
+<g><rect x="56" y="259" width="46" height="26" rx="4" fill="#22e5ff" fill-opacity=".08" stroke="#22e5ff" stroke-opacity=".7"/><text x="65" y="277" fill="#22e5ff" font-size="13" letter-spacing="1.5">SOC</text></g>
+<g><rect x="111.9" y="259" width="102" height="26" rx="4" fill="#3dff9a" fill-opacity=".08" stroke="#3dff9a" stroke-opacity=".7"/><text x="120.9" y="277" fill="#3dff9a" font-size="13" letter-spacing="1.5">DÉTECTION</text></g>
+<g><rect x="223.6" y="259" width="102" height="26" rx="4" fill="#ffb84d" fill-opacity=".08" stroke="#ffb84d" stroke-opacity=".7"/><text x="232.6" y="277" fill="#ffb84d" font-size="13" letter-spacing="1.5">AUDIT WEB</text></g>
+<g><rect x="335.3" y="259" width="74" height="26" rx="4" fill="#b18cff" fill-opacity=".08" stroke="#b18cff" stroke-opacity=".7"/><text x="344.3" y="277" fill="#b18cff" font-size="13" letter-spacing="1.5">PYTHON</text></g>
+<g><rect x="56" y="312" width="520" height="150" rx="8" fill="#07101c" fill-opacity=".92" stroke="#22e5ff" stroke-opacity=".45"/><rect x="56" y="312" width="520" height="24" rx="8" fill="#22e5ff" fill-opacity=".08"/><circle cx="72" cy="324" r="4" fill="#ff3d64"/><circle cx="86" cy="324" r="4" fill="#ffb84d"/><circle cx="100" cy="324" r="4" fill="#3dff9a"/><text x="564" y="328" fill="#6b8a9a" font-size="11" text-anchor="end">auth.log — web-01 (fictif)</text></g>
+<text x="70" y="360" font-size="13" class="l1"><tspan fill="#6b8a9a">09:10:00</tspan><tspan fill="#ff3d64">  Failed password  deploy  203.0.113.42</tspan></text>
+<text x="70" y="381" font-size="13" class="l2"><tspan fill="#6b8a9a">09:10:15</tspan><tspan fill="#ff3d64">  Failed password  deploy  203.0.113.42</tspan></text>
+<text x="70" y="402" font-size="13" class="l3"><tspan fill="#6b8a9a">09:10:45</tspan><tspan fill="#ff3d64">  Failed password ×3  …</tspan></text>
+<text x="70" y="423" font-size="13" class="l4"><tspan fill="#6b8a9a">09:11:10</tspan><tspan fill="#3dff9a">  Accepted password  deploy  203.0.113.42</tspan></text>
+<g class="l6"><rect x="66" y="429" width="500" height="24" rx="4" fill="#ff3d64" fill-opacity=".14" stroke="#ff3d64" stroke-opacity=".8"/><text x="76" y="446" font-size="13" fill="#ff3d64" font-weight="700">▲ ALERTE  T1110.001 · 5 échecs → succès · à vérifier</text><rect x="550" y="436" width="8" height="12" fill="#ff3d64" class="blink"/></g>
+<path d="M14,36 V14 H36" fill="none" stroke="#22e5ff" stroke-width="2" stroke-opacity=".8"/>
+<path d="M1186,36 V14 H1164" fill="none" stroke="#22e5ff" stroke-width="2" stroke-opacity=".8"/>
+<path d="M14,464 V486 H36" fill="none" stroke="#22e5ff" stroke-width="2" stroke-opacity=".8"/>
+<path d="M1186,464 V486 H1164" fill="none" stroke="#22e5ff" stroke-width="2" stroke-opacity=".8"/>
+<text x="1160" y="44" fill="#22e5ff" font-size="12" text-anchor="end" letter-spacing="3" opacity=".75">SIGNAL ▸ JOURNAL ▸ ALERTE</text>
+<text x="1160" y="470" fill="#6b8a9a" font-size="11" text-anchor="end" letter-spacing="2">github.com/NicolasJaumotte</text>
+<rect class="scan" x="0" y="0" width="1200" height="120" fill="url(#scan)"/>
+<rect width="1200" height="500" rx="16" fill="url(#lines)" opacity=".35"/>
+<rect x=".5" y=".5" width="1199" height="499" rx="16" fill="none" stroke="#22e5ff" stroke-opacity=".35"/>
+</svg>
