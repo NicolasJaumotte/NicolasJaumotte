@@ -1,16 +1,13 @@
-## Hi there 👋
+# Nicolas Jaumotte
 
-<!--
-**NicolasJaumotte/NicolasJaumotte** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Je cherche à rejoindre une équipe en **cybersécurité**. Je m’intéresse à la détection et à l’investigation : remonter d’une alerte aux journaux, puis déterminer ce qu’ils permettent de conclure.
 
-Here are some ideas to get you started:
+## Détection et investigation
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**SSH Auth Triage** — Un exercice sur des journaux fictifs. Un détecteur Python repère des échecs SSH suivis d’un succès. Le rapport distingue ce qui a été observé, les hypothèses possibles et les preuves à rechercher.
+
+## Projet logiciel
+
+**[RiftMind](https://github.com/njaumotte/riftmind/releases/latest)** — Application Windows et macOS avec des builds, des runes et un overlay personnalisable pour League of Legends.
+
+[Me contacter sur LinkedIn](https://www.linkedin.com/in/nicolas-jaumotte-10b63a449/)
