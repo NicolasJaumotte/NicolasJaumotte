@@ -11,6 +11,32 @@
   <linearGradient id="signal" x2="100%" y2="100%"><stop stop-color="#e5ffa1"/><stop offset="1" stop-color="#8addc3"/></linearGradient>
   <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#8195b2" opacity=".2"/></pattern>
 </defs>
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .signal-run { animation: relay 4.55s cubic-bezier(.28,.08,.38,1) 1 both; }
+  .signal-trail { animation: draw 4.1s ease-out 1 both; }
+  .signal-ring { transform-origin: 867px 128px; animation: confirm 4.55s ease-out 1 both; }
+  .signal-words { animation: show 4.55s ease-out 1 both; }
+}
+@keyframes relay {
+  0%   { offset-distance: 0%; opacity: 0; }
+  10%  { opacity: 1; }
+  84%  { opacity: 1; offset-distance: 100%; }
+  100% { offset-distance: 100%; opacity: 0; }
+}
+@keyframes draw {
+  0%, 8% { stroke-dashoffset: 100; opacity: 0; }
+  19% { opacity: .96; }
+  85% { stroke-dashoffset: 0; opacity: .9; }
+  100% { stroke-dashoffset: 0; opacity: .47; }
+}
+@keyframes confirm {
+  0%, 70% { opacity: 0; transform: scale(.55); }
+  82% { opacity: .9; transform: scale(.85); }
+  100% { opacity: 0; transform: scale(1.5); }
+}
+@keyframes show { 0%, 58% { opacity: .44; } 94%, 100% { opacity: 1; } }
+</style>
 <rect x="1" y="1" width="1118" height="448" rx="23" fill="url(#bg)" stroke="#43516a" stroke-width="2"/>
 <ellipse cx="850" cy="230" rx="272" ry="217" fill="url(#light)"/>
 <path d="M581 46h500v356H581z" fill="url(#dots)"/>
@@ -142,6 +168,15 @@
 <polyline points="938.9,157.2 961.4,166.6 987.8,155.7" fill="none" stroke="#a9cabe" stroke-width="1.2"/>
 <path d="M987.8 155.7h43v-22h14" stroke="#a9cabe" fill="none"/><circle cx="1044.8" cy="133.7" r="3" fill="#ddfb93"/>
 </g><g font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="1.4">
-<text x="1067" y="112" text-anchor="end" fill="#e6f4a7">SIGNAL 01</text>
+<text class="signal-words" x="1067" y="112" text-anchor="end" fill="#e6f4a7">SIGNAL 01</text>
 <text x="652" y="362" fill="#aab9d0">JOURNAL → ALERTE</text>
-</g></svg>
+</g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <path d="M730 319 L754 329 L800 309 L800 278 L814 272 L814 244 L829 238 L829 207 L805 197 L805 174 L826 183 L849 173 L849 152 L867 128" stroke="#233e46" stroke-width="5" opacity=".82"/>
+  <path d="M730 319 L754 329 L800 309 L800 278 L814 272 L814 244 L829 238 L829 207 L805 197 L805 174 L826 183 L849 173 L849 152 L867 128" stroke="#d9f89c" stroke-width="2" pathLength="100" stroke-dasharray="100" class="signal-trail" opacity=".47"/>
+  <g class="signal-run" opacity="0" style="offset-path: path('M730 319 L754 329 L800 309 L800 278 L814 272 L814 244 L829 238 L829 207 L805 197 L805 174 L826 183 L849 173 L849 152 L867 128'); offset-rotate: 0deg;">
+    <circle r="17" fill="url(#halo)"/><circle r="6" fill="#dcf89c"/><circle r="2.5" fill="#fffbed"/>
+  </g>
+  <ellipse class="signal-ring" cx="867" cy="128" rx="28" ry="13" opacity="0" stroke="#dbfba2" stroke-width="2"/>
+</g>
+</svg>
