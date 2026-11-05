@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="470" viewBox="0 0 1120 470" role="img" aria-labelledby="t d">
+<title id="t">Nicolas Jaumotte — Suivre le signal</title>
+<desc id="d">Une couverture ivoire et cuivrée, avec un signal qui traverse des feuilles de journaux en perspective.</desc>
+<defs>
+ <linearGradient id="paper" x2="100%" y2="100%"><stop stop-color="#f9f4e9"/><stop offset="1" stop-color="#eee5d5"/></linearGradient>
+ <linearGradient id="ink" x2="100%" y2="100%"><stop stop-color="#3a2b30"/><stop offset="1" stop-color="#211b21"/></linearGradient>
+ <linearGradient id="metal" x2="100%" y2="100%"><stop stop-color="#ffcfaa"/><stop offset="1" stop-color="#e97e50"/></linearGradient>
+ <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M0 22V0H22" fill="none" stroke="#ceab91" opacity=".16"/></pattern>
+ <clipPath id="clip"><path d="M699 0H1120V470H568L653 384 657 76Z"/></clipPath>
+</defs>
+<style>
+ @media(prefers-reduced-motion:no-preference){.pulse{animation:scan 4.1s ease-in-out 1 both}}
+ @keyframes scan {0%{offset-distance:0%;opacity:0}12%{opacity:1}90%{opacity:1;offset-distance:100%}100%{offset-distance:100%;opacity:0}}
+</style>
+<rect x="1" y="1" width="1118" height="468" rx="13" fill="url(#paper)" stroke="#b8a68f" stroke-width="2"/>
+<g clip-path="url(#clip)">
+ <path d="M699 0H1120V470H568L653 384 657 76Z" fill="url(#ink)"/>
+ <path d="M590 0H1120V470H570Z" fill="url(#grid)"/>
+ <circle cx="909" cy="238" r="144" fill="none" stroke="#ad8d7e" opacity=".23" stroke-dasharray="2 5"/>
+ <circle cx="909" cy="238" r="169" fill="none" stroke="#ad8d7e" opacity=".23"/>
+ <path d="M620 408 875 286 1119 384M732 452l256-121M841 469l254-118M630 347l293 123M750 291l287 120" fill="none" stroke="#ad8d7e" opacity=".21"/>
+ <g stroke-linejoin="round">
+  <path d="M708 300 865 225 1054 301V318L897 395 708 319Z" fill="#2a242a" stroke="#886e70"/>
+  <path d="M708 300 865 225 1054 301 897 378Z" fill="#553f44" stroke="#9f8181"/>
+  <path d="M731 300 868 235 1029 301 893 367Z" fill="none" stroke="#bd9c91" opacity=".59"/>
+  <path d="M709 251 866 175 1055 251V266L898 343 709 267Z" fill="#332830" stroke="#967679"/>
+  <path d="M709 251 866 175 1055 251 898 328Z" fill="#685053" stroke="#ae8a86"/>
+  <path d="M733 251 870 185 1031 251 894 317Z M769 265l135-66 M804 280l136-65 M840 295l137-65" fill="none" stroke="#d7ac96" opacity=".45"/>
+  <path d="M709 203 866 127 1055 203V219L898 295 709 219Z" fill="#624449" stroke="#c29485"/>
+  <path d="M709 203 866 127 1055 203 898 279Z" fill="#8a625f" stroke="#d7ab94"/>
+  <path d="M734 203 870 137 1032 203 895 269Z M771 219l136-67 M809 235l136-67 M848 250l135-66" fill="none" stroke="#e2b4a0" opacity=".54"/>
+  <path d="M756 220 795 202 819 212 866 190 886 199 911 186 948 202 987 183" fill="none" stroke="#ffcfaa" stroke-width="3"/>
+  <circle cx="756" cy="220" r="5" fill="#f4b498"/><circle cx="987" cy="183" r="5" fill="#f4b498"/>
+  <path d="M852 172 897 150 944 169V189L900 211 852 191Z" fill="#a75948" stroke="#ffcfaa"/>
+  <path d="M852 172 897 150 944 169 900 191Z" fill="url(#metal)" stroke="#ffdfc0"/>
+  <path d="m886 170 11 5 17-8" fill="none" stroke="#6b3028" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M761 333 788 321V285L820 269V235L851 220V195L882 180 901 171" fill="none" stroke="#f3a478" stroke-width="1.8" stroke-dasharray="3 5" opacity=".8"/>
+  <g class="pulse" opacity="0" style="offset-path:path('M761 333 L788 321 L788 285 L820 269 L820 235 L851 220 L851 195 L882 180 L901 171');offset-rotate:0deg">
+   <circle r="18" fill="#ffd1a3" opacity=".2"/><circle r="6" fill="#ffe0bb"/>
+  </g>
+ </g>
+ <g fill="#ffd1ac" font-family="Menlo,Consolas,monospace" font-size="17" letter-spacing="2"><text x="1080" y="55" text-anchor="end">FIG. 01</text><text x="1080" y="428" text-anchor="end">JOURNAL → ALERTE</text></g>
+</g>
+<g font-family="Menlo,Consolas,monospace" fill="#713b2b" font-size="20" letter-spacing="2.3" font-weight="700">
+ <text x="49" y="62">NICOLAS JAUMOTTE</text><text x="51" y="414">DÉTECTION / INVESTIGATION</text>
+</g>
+<path d="M50 88h480M50 380h480" stroke="#a38b74" opacity=".65"/>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="115" font-weight="700" fill="#252123" letter-spacing="-6">
+ <text x="43" y="222">Suivre</text><text x="43" y="330">le signal<tspan fill="#ab4e33">.</tspan></text>
+</g>
+</svg>
