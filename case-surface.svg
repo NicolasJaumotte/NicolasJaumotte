@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="277" viewBox="0 0 1120 277" role="img" aria-labelledby="t d">
+<title id="t">Surface — audit web passif</title><desc id="d">Rapport fictif : HTTPS observé, politique de contenu à vérifier, injection SQL non évaluée.</desc>
+<defs><linearGradient id="paper" x2="100%" y2="100%"><stop stop-color="#f8f2e8"/><stop offset="1" stop-color="#eaddca"/></linearGradient></defs>
+<rect x="1" y="1" width="1118" height="275" rx="12" fill="url(#paper)" stroke="#b8a68f" stroke-width="2"/>
+<path d="M535 29v219" stroke="#ae9581" stroke-dasharray="4 6"/>
+<g font-family="Menlo,Consolas,monospace" fill="#75402f" font-size="17" font-weight="700" letter-spacing="2"><text x="41" y="49">01 / AUDIT WEB PASSIF</text><text x="43" y="229">OBSERVATIONS + RECOMMANDATIONS</text></g>
+<text x="34" y="166" fill="#252123" font-family="Georgia,serif" font-weight="700" font-size="108" letter-spacing="-6">Surface<tspan fill="#ab4e33">.</tspan></text>
+<rect x="571" y="39" width="509" height="196" rx="10" fill="#2b2329" stroke="#725052" stroke-width="2"/>
+<g font-family="Menlo,Consolas,monospace" fill="#f3bd9d" font-size="17" letter-spacing="1.5"><text x="595" y="68">EXEMPLE FICTIF</text></g>
+<path d="M594 82h462M594 126h462M594 169h462" stroke="#725052"/>
+<g fill="#f6e7dc" font-family="system-ui,Arial,sans-serif" font-size="24" font-weight="650"><text x="595" y="112">HTTPS</text><text x="595" y="155">Politique de contenu</text><text x="595" y="198">Injection SQL</text></g>
+<g font-family="Menlo,Consolas,monospace" text-anchor="end" font-weight="700" font-size="17"><text x="1056" y="110" fill="#e6f0ab">OBSERVÉ</text><text x="1056" y="154" fill="#ffc6a1">À VÉRIFIER</text><text x="1056" y="198" fill="#d5bdc2">NON ÉVALUÉ</text></g>
+</svg>
