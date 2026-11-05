@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 267" width="1120" height="267" role="img" aria-labelledby="title desc">
+<title id="title">De l’événement à l’enquête</title>
+<desc id="desc">Cinq échecs de connexion sont suivis d’un accès réussi. Le détecteur crée une alerte à examiner.</desc>
+<defs>
+ <linearGradient id="bg" x2="100%" y2="100%"><stop stop-color="#171d33"/><stop offset="1" stop-color="#121f29"/></linearGradient>
+ <linearGradient id="line"><stop stop-color="#8b789f"/><stop offset=".52" stop-color="#a6d5c1"/><stop offset="1" stop-color="#dffa91"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="1118" height="265" rx="20" fill="url(#bg)" stroke="#43516a" stroke-width="2"/>
+<g font-family="Menlo, Consolas, monospace" font-weight="700" font-size="18" letter-spacing="2.4">
+  <text x="37" y="45" fill="#c5d0e0">DOSSIER 01 / CONNEXION SSH</text>
+  <text x="1081" y="45" text-anchor="end" fill="#aebbd0">SCÉNARIO FICTIF</text>
+</g>
+<path d="M42 114H1081" fill="none" stroke="#45516a" stroke-width="2"/>
+<path d="M59 114H849" fill="none" stroke="url(#line)" stroke-width="3"/>
+<path d="M378 88v147m355-147v147" stroke="#43516a" stroke-width="1" stroke-dasharray="3 6"/>
+<g fill="#bdaccf" stroke="#151c2c" stroke-width="3">
+  <circle cx="57" cy="114" r="7"/><circle cx="77" cy="114" r="7"/><circle cx="97" cy="114" r="7"/><circle cx="117" cy="114" r="7"/><circle cx="137" cy="114" r="7"/>
+</g>
+<circle cx="409" cy="114" r="9" fill="#a6d5c1" stroke="#152330" stroke-width="3"/>
+<circle cx="765" cy="114" r="14" fill="#dffa91" opacity=".24"/><circle cx="765" cy="114" r="7" fill="#dffa91"/>
+<path d="M1081 108l7 6-7 6" fill="none" stroke="#728491" stroke-width="2"/>
+<g fill="#aab9d0" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="700" letter-spacing="1.2">
+  <text x="37" y="93">09:10:00</text>
+  <text x="400" y="93">09:11:10</text>
+  <text x="756" y="93" fill="#dffa91">À VÉRIFIER</text>
+</g>
+<g fill="#f4f3fa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="36" font-weight="720" letter-spacing="-.65">
+  <text x="37" y="177">Cinq échecs</text>
+  <text x="400" y="177">Un accès réussi</text>
+  <text x="756" y="177">Une enquête</text>
+</g>
+<g fill="#b7c7da" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="24">
+  <text x="37" y="213">Même serveur et compte</text>
+  <text x="400" y="213">Même adresse source</text>
+  <text x="756" y="213">Connexion légitime ?</text>
+</g>
+</svg>
