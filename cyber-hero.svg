@@ -155,17 +155,16 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans M
 <circle cx="857.5" cy="211.6" r="4.0" fill="#3dff9a" filter="url(#glow)"/>
 <path d="M857.5,211.6 L860.0,234.0 L860.0,182.0 L860.0,105.0" fill="none" stroke="#3dff9a" stroke-opacity=".75" stroke-dasharray="4 5" filter="url(#glow)"/>
 <circle r="5.0" fill="#fff" filter="url(#glow2)" class="packet" style="offset-path:path('M857.5,211.6 L860.0,234.0 L860.0,182.0 L860.0,105.0')"/>
-<text x="56" y="70" fill="#3dff9a" font-size="15" letter-spacing="1">nicolas@epita:~$ <tspan fill="#dff8ff">whoami</tspan></text>
 <g>
-<text x="56" y="160" font-size="60" font-weight="800" fill="#ff3d64" class="glitch1" opacity="0">Nicolas Jaumotte</text>
-<text x="56" y="160" font-size="60" font-weight="800" fill="#22e5ff" class="glitch2" opacity="0">Nicolas Jaumotte</text>
-<text x="56" y="160" font-size="60" font-weight="800" fill="#dff8ff" letter-spacing="-1" filter="url(#glow)">Nicolas Jaumotte<tspan fill="#3dff9a" class="blink">_</tspan></text>
+<text x="56" y="128" font-size="60" font-weight="800" fill="#ff3d64" class="glitch1" opacity="0">Nicolas Jaumotte</text>
+<text x="56" y="128" font-size="60" font-weight="800" fill="#22e5ff" class="glitch2" opacity="0">Nicolas Jaumotte</text>
+<text x="56" y="128" font-size="60" font-weight="800" fill="#dff8ff" letter-spacing="-1" filter="url(#glow)">Nicolas Jaumotte<tspan fill="#3dff9a" class="blink">_</tspan></text>
 </g>
-<text x="56" y="212" fill="#6b8a9a" font-size="16">Étudiant EPITA · cybersécurité défensive · C, C#, Python</text>
-<g><rect x="56" y="259" width="46" height="26" rx="4" fill="#22e5ff" fill-opacity=".08" stroke="#22e5ff" stroke-opacity=".7"/><text x="65" y="277" fill="#22e5ff" font-size="13" letter-spacing="1.5">SOC</text></g>
-<g><rect x="111.9" y="259" width="102" height="26" rx="4" fill="#3dff9a" fill-opacity=".08" stroke="#3dff9a" stroke-opacity=".7"/><text x="120.9" y="277" fill="#3dff9a" font-size="13" letter-spacing="1.5">DÉTECTION</text></g>
-<g><rect x="223.6" y="259" width="102" height="26" rx="4" fill="#ffb84d" fill-opacity=".08" stroke="#ffb84d" stroke-opacity=".7"/><text x="232.6" y="277" fill="#ffb84d" font-size="13" letter-spacing="1.5">AUDIT WEB</text></g>
-<g><rect x="335.3" y="259" width="74" height="26" rx="4" fill="#b18cff" fill-opacity=".08" stroke="#b18cff" stroke-opacity=".7"/><text x="344.3" y="277" fill="#b18cff" font-size="13" letter-spacing="1.5">PYTHON</text></g>
+<text x="56" y="182" fill="#6b8a9a" font-size="16">Étudiant EPITA · cybersécurité défensive · C, C#, Python</text>
+<g><rect x="56" y="222" width="46" height="26" rx="4" fill="#22e5ff" fill-opacity=".08" stroke="#22e5ff" stroke-opacity=".7"/><text x="65" y="240" fill="#22e5ff" font-size="13" letter-spacing="1.5">SOC</text></g>
+<g><rect x="111.9" y="222" width="102" height="26" rx="4" fill="#3dff9a" fill-opacity=".08" stroke="#3dff9a" stroke-opacity=".7"/><text x="120.9" y="240" fill="#3dff9a" font-size="13" letter-spacing="1.5">DÉTECTION</text></g>
+<g><rect x="223.6" y="222" width="102" height="26" rx="4" fill="#ffb84d" fill-opacity=".08" stroke="#ffb84d" stroke-opacity=".7"/><text x="232.6" y="240" fill="#ffb84d" font-size="13" letter-spacing="1.5">AUDIT WEB</text></g>
+<g><rect x="335.3" y="222" width="74" height="26" rx="4" fill="#b18cff" fill-opacity=".08" stroke="#b18cff" stroke-opacity=".7"/><text x="344.3" y="240" fill="#b18cff" font-size="13" letter-spacing="1.5">PYTHON</text></g>
 <g><rect x="56" y="312" width="520" height="150" rx="8" fill="#07101c" fill-opacity=".92" stroke="#22e5ff" stroke-opacity=".45"/><rect x="56" y="312" width="520" height="24" rx="8" fill="#22e5ff" fill-opacity=".08"/><circle cx="72" cy="324" r="4" fill="#ff3d64"/><circle cx="86" cy="324" r="4" fill="#ffb84d"/><circle cx="100" cy="324" r="4" fill="#3dff9a"/><text x="564" y="328" fill="#6b8a9a" font-size="11" text-anchor="end">~/projets</text></g>
 <text x="70" y="358" font-size="13" class="l1"><tspan fill="#3dff9a">$</tspan><tspan fill="#dff8ff"> ls ~/projets</tspan></text>
 <text x="70" y="380" font-size="13" class="l2"><tspan fill="#22e5ff" font-weight="700">surface-audit/</tspan><tspan x="256" fill="#6b8a9a">Python · audit web</tspan></text>
