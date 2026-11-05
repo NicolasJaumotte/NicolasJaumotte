@@ -1,4 +1,4 @@
-![Nicolas Jaumotte — Cybersécurité, détection et investigation. Un signal traverse des couches de journaux dans une illustration isométrique.](./cyber-scene.svg)
+![Nicolas Jaumotte — Cybersécurité, détection et investigation. Un signal traverse des couches de journaux dans une illustration isométrique.](https://raw.githubusercontent.com/NicolasJaumotte/NicolasJaumotte/d4732c67b8479290d916fec3bfbaf6b9dfb8b136/cyber-scene.svg)
 
 **Je cherche un stage, une alternance ou un premier poste en cybersécurité.** Ce qui m’intéresse : remonter d’une alerte aux faits, puis expliquer ce qu’on peut en conclure.
 
