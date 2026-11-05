@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="255" viewBox="0 0 1120 255" role="img" aria-labelledby="t d">
+<title id="t">RiftMind — application compagnon pour League of Legends</title>
+<desc id="d">Illustration d’un panneau en jeu qui indique l’or restant avant le prochain achat.</desc>
+<defs><linearGradient id="p" x2="100%" y2="100%"><stop stop-color="#f8f1e4"/><stop offset="1" stop-color="#e8ddcb"/></linearGradient></defs>
+<rect x="1" y="1" width="1118" height="253" rx="12" fill="url(#p)" stroke="#b8a68f" stroke-width="2"/>
+<path d="M598 29v197" stroke="#b69f88" stroke-dasharray="4 6"/>
+<g fill="#75402f" font-family="Menlo,Consolas,monospace" font-size="18" letter-spacing="2.1" font-weight="700">
+<text x="40" y="47">02 / APPLICATION DESKTOP</text>
+<text x="41" y="215">WINDOWS + MACOS</text>
+<text x="1069" y="223" text-anchor="end" font-size="15">ILLUSTRATION DU PANNEAU</text>
+</g>
+<text x="36" y="151" fill="#252123" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="92" letter-spacing="-5">RiftMind<tspan fill="#ab4e33">.</tspan></text>
+<g>
+<rect x="655" y="44" width="411" height="146" rx="11" fill="#2b2329" stroke="#725052" stroke-width="2"/>
+<path d="M681 80h357" stroke="#6e5053"/>
+<text x="681" y="70" fill="#efb897" font-family="Menlo,Consolas,monospace" font-size="17" letter-spacing="1.6">PROCHAIN ACHAT</text>
+<text x="679" y="136" fill="#ffeada" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="49">350</text>
+<text x="766" y="134" fill="#e4c4b1" font-family="Arial,sans-serif" font-size="23">or manquant</text>
+<path d="M683 161h352" stroke="#715458" stroke-width="5" stroke-linecap="round"/>
+<path d="M683 161h249" stroke="#f0a680" stroke-width="5" stroke-linecap="round"/>
+</g>
+</svg>
