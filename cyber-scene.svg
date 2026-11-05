@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 450" width="1120" height="450" role="img" aria-labelledby="title desc">
+<title id="title">Nicolas Jaumotte — cybersécurité</title>
+<desc id="desc">Une scène isométrique représente des événements d’authentification analysés sur trois plaques. Un signal vert marque l’alerte à examiner.</desc>
+<defs>
+  <linearGradient id="bg" x2="100%" y2="100%"><stop stop-color="#151b32"/><stop offset=".58" stop-color="#111525"/><stop offset="1" stop-color="#111e2a"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#324d69" stop-opacity=".87"/><stop offset="1" stop-color="#1c2a40" stop-opacity="0"/></radialGradient>
+  <linearGradient id="base" x2="100%" y2="100%"><stop stop-color="#40536c"/><stop offset="1" stop-color="#25334f"/></linearGradient>
+  <linearGradient id="glass" x2="100%" y2="100%"><stop stop-color="#233750"/><stop offset=".57" stop-color="#1e2946"/><stop offset="1" stop-color="#43596f"/></linearGradient>
+  <linearGradient id="glassTop" x2="100%" y2="100%"><stop stop-color="#40506c"/><stop offset=".56" stop-color="#253650"/><stop offset="1" stop-color="#3c5364"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#deff8c" stop-opacity=".66"/><stop offset=".38" stop-color="#abf0a5" stop-opacity=".26"/><stop offset="1" stop-color="#abf0a5" stop-opacity="0"/></radialGradient>
+  <linearGradient id="signal" x2="100%" y2="100%"><stop stop-color="#e5ffa1"/><stop offset="1" stop-color="#8addc3"/></linearGradient>
+  <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#8195b2" opacity=".2"/></pattern>
+</defs>
+<rect x="1" y="1" width="1118" height="448" rx="23" fill="url(#bg)" stroke="#43516a" stroke-width="2"/>
+<ellipse cx="850" cy="230" rx="272" ry="217" fill="url(#light)"/>
+<path d="M581 46h500v356H581z" fill="url(#dots)"/>
+<path d="M46 393h1028" stroke="#45516a"/>
+<path d="M47 53h34m-34 0v19m1027-19h-34m34 0v19" fill="none" stroke="#6d7b93"/>
+<g font-family="Menlo, Consolas, monospace">
+  <circle cx="55" cy="109" r="4" fill="#ddfb93"/><text x="70" y="114" fill="#ddfb93" font-size="19" letter-spacing="4" font-weight="700">CYBERSÉCURITÉ</text>
+  <text x="48" y="338" fill="#b7c7dd" font-size="17" letter-spacing="2">DÉTECTION / INVESTIGATION</text>
+  <text x="48" y="423" fill="#aab9d0" font-size="14" letter-spacing="2">PORTFOLIO TECHNIQUE</text>
+  <text x="1073" y="423" fill="#aab9d0" font-size="14" letter-spacing="2" text-anchor="end">01 / AUTHENTIFICATION</text>
+</g>
+<g fill="#f5f4f9" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="88" font-weight="760" letter-spacing="-5">
+  <text x="44" y="217">Nicolas</text>
+  <text x="44" y="298">Jaumotte<tspan fill="#ddfb93">.</tspan></text>
+</g>
+<g stroke-linejoin="round" stroke-linecap="round">
+
+<polyline points="843.0,189.5 608.0,287.0" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="843.0,189.5 1078.0,287.0" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="866.5,199.2 631.5,296.8" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="819.5,199.2 1054.5,296.8" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="890.0,209.0 655.0,306.5" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="796.0,209.0 1031.0,306.5" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="913.5,218.8 678.5,316.2" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="772.5,218.8 1007.5,316.2" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="937.0,228.5 702.0,326.0" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="749.0,228.5 984.0,326.0" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="960.5,238.2 725.5,335.8" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="725.5,238.2 960.5,335.8" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="984.0,248.0 749.0,345.5" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="702.0,248.0 937.0,345.5" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="1007.5,257.8 772.5,355.2" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="678.5,257.8 913.5,355.2" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="1031.0,267.5 796.0,365.0" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="655.0,267.5 890.0,365.0" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="1054.5,277.2 819.5,374.8" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="631.5,277.2 866.5,374.8" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="1078.0,287.0 843.0,384.5" fill="none" stroke="#536b89" opacity=".42"/>
+<polyline points="608.0,287.0 843.0,384.5" fill="none" stroke="#536b89" opacity=".42"/>
+<polygon points="843.0,191.1 1074.2,287.0 843.0,382.9 611.8,287.0" fill="none" stroke="#677e9b" opacity=".72"/>
+<circle cx="843.0" cy="191.1" r="3" fill="#7e91ad"/>
+<circle cx="611.8" cy="287.0" r="3" fill="#7e91ad"/>
+<circle cx="1074.2" cy="287.0" r="3" fill="#7e91ad"/>
+<circle cx="843.0" cy="382.9" r="3" fill="#7e91ad"/>
+<polygon points="677.6,273.0 843.0,341.6 843.0,319.6 677.6,251.0" fill="#1c293b" stroke="#536983" />
+<polygon points="1008.4,273.0 843.0,341.6 843.0,319.6 1008.4,251.0" fill="#172333" stroke="#536983" />
+<polygon points="843.0,182.4 1008.4,251.0 843.0,319.6 677.6,251.0" fill="url(#base)" stroke="#536983" />
+<polyline points="696.4,273.8 702.0,276.1" fill="none" stroke="#617f9c" stroke-width="2"/>
+<polyline points="989.6,273.8 984.0,276.1" fill="none" stroke="#45677d" stroke-width="2"/>
+<polyline points="712.3,280.4 718.0,282.8" fill="none" stroke="#617f9c" stroke-width="2"/>
+<polyline points="973.7,280.4 968.0,282.8" fill="none" stroke="#45677d" stroke-width="2"/>
+<polyline points="728.3,287.1 734.0,289.4" fill="none" stroke="#617f9c" stroke-width="2"/>
+<polyline points="957.7,287.1 952.0,289.4" fill="none" stroke="#45677d" stroke-width="2"/>
+<polyline points="744.3,293.7 749.9,296.0" fill="none" stroke="#617f9c" stroke-width="2"/>
+<polyline points="941.7,293.7 936.1,296.0" fill="none" stroke="#45677d" stroke-width="2"/>
+<polyline points="760.3,300.3 765.9,302.7" fill="none" stroke="#617f9c" stroke-width="2"/>
+<polyline points="925.7,300.3 920.1,302.7" fill="none" stroke="#45677d" stroke-width="2"/>
+<polyline points="776.3,306.9 781.9,309.3" fill="none" stroke="#617f9c" stroke-width="2"/>
+<polyline points="909.7,306.9 904.1,309.3" fill="none" stroke="#45677d" stroke-width="2"/>
+<polyline points="792.2,313.6 797.9,315.9" fill="none" stroke="#617f9c" stroke-width="2"/>
+<polyline points="893.8,313.6 888.1,315.9" fill="none" stroke="#45677d" stroke-width="2"/>
+<polyline points="808.2,320.2 813.9,322.6" fill="none" stroke="#617f9c" stroke-width="2"/>
+<polyline points="877.8,320.2 872.1,322.6" fill="none" stroke="#45677d" stroke-width="2"/>
+<polyline points="824.2,326.8 829.8,329.2" fill="none" stroke="#617f9c" stroke-width="2"/>
+<polyline points="861.8,326.8 856.2,329.2" fill="none" stroke="#45677d" stroke-width="2"/>
+<polyline points="713.3,248.2 713.3,140.2" fill="none" stroke="#91a7b9" stroke-dasharray="3 6" opacity=".62"/>
+<polyline points="972.7,248.2 972.7,140.2" fill="none" stroke="#91a7b9" stroke-dasharray="3 6" opacity=".62"/>
+<polyline points="843.0,302.0 843.0,194.0" fill="none" stroke="#91a7b9" stroke-dasharray="3 6" opacity=".62"/>
+<polygon points="705.8,232.0 843.0,288.9 843.0,279.9 705.8,223.0" fill="#26384f" stroke="#6a829c" />
+<polygon points="980.2,232.0 843.0,288.9 843.0,279.9 980.2,223.0" fill="#203044" stroke="#6a829c" />
+<polygon points="843.0,166.1 980.2,223.0 843.0,279.9 705.8,223.0" fill="url(#glass)" stroke="#6a829c" />
+<polyline points="849.6,178.2 734.9,225.7" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="836.4,178.2 951.1,225.7" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="875.0,188.7 760.3,236.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="811.0,188.7 925.7,236.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="900.3,199.2 785.7,246.8" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="785.7,199.2 900.3,246.8" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="925.7,209.7 811.0,257.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="760.3,209.7 875.0,257.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="951.1,220.3 836.4,267.9" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="734.9,220.3 849.6,267.9" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="737.7,219.9 771.6,233.9 796.0,223.8 821.4,234.3 858.0,219.1 907.9,239.8" fill="none" stroke="#91a4be" opacity=".72"/>
+<circle cx="737.7" cy="219.9" r="2.5" fill="#a1b4ce"/>
+<circle cx="821.4" cy="234.3" r="2.5" fill="#a1b4ce"/>
+<circle cx="907.9" cy="239.8" r="2.5" fill="#a1b4ce"/>
+<polygon points="705.8,196.0 843.0,252.9 843.0,243.9 705.8,187.0" fill="#26384f" stroke="#6a829c" />
+<polygon points="980.2,196.0 843.0,252.9 843.0,243.9 980.2,187.0" fill="#203044" stroke="#6a829c" />
+<polygon points="843.0,130.1 980.2,187.0 843.0,243.9 705.8,187.0" fill="url(#glass)" stroke="#6a829c" />
+<polyline points="849.6,142.2 734.9,189.7" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="836.4,142.2 951.1,189.7" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="875.0,152.7 760.3,200.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="811.0,152.7 925.7,200.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="900.3,163.2 785.7,210.8" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="785.7,163.2 900.3,210.8" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="925.7,173.7 811.0,221.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="760.3,173.7 875.0,221.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="951.1,184.3 836.4,231.9" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="734.9,184.3 849.6,231.9" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="737.7,183.9 771.6,197.9 796.0,187.8 821.4,198.3 858.0,183.1 907.9,203.8" fill="none" stroke="#91a4be" opacity=".72"/>
+<circle cx="737.7" cy="183.9" r="2.5" fill="#a1b4ce"/>
+<circle cx="821.4" cy="198.3" r="2.5" fill="#a1b4ce"/>
+<circle cx="907.9" cy="203.8" r="2.5" fill="#a1b4ce"/>
+<polygon points="705.8,160.0 843.0,216.9 843.0,207.9 705.8,151.0" fill="#26384f" stroke="#6a829c" />
+<polygon points="980.2,160.0 843.0,216.9 843.0,207.9 980.2,151.0" fill="#203044" stroke="#6a829c" />
+<polygon points="843.0,94.1 980.2,151.0 843.0,207.9 705.8,151.0" fill="url(#glassTop)" stroke="#6a829c" />
+<polyline points="849.6,106.2 734.9,153.7" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="836.4,106.2 951.1,153.7" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="875.0,116.7 760.3,164.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="811.0,116.7 925.7,164.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="900.3,127.2 785.7,174.8" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="785.7,127.2 900.3,174.8" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="925.7,137.7 811.0,185.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="760.3,137.7 875.0,185.3" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="951.1,148.3 836.4,195.9" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="734.9,148.3 849.6,195.9" fill="none" stroke="#6a829c" opacity=".42"/>
+<polyline points="737.7,147.9 771.6,161.9 796.0,151.8 821.4,162.3 858.0,147.1 907.9,167.8" fill="none" stroke="#91a4be" opacity=".72"/>
+<circle cx="737.7" cy="147.9" r="2.5" fill="#a1b4ce"/>
+<circle cx="821.4" cy="162.3" r="2.5" fill="#a1b4ce"/>
+<circle cx="907.9" cy="167.8" r="2.5" fill="#a1b4ce"/>
+<polyline points="765.9,137.7 801.6,152.6 821.4,144.4 854.3,158.0 875.0,149.4 915.4,166.2" fill="none" stroke="#cbf794" stroke-width="3"/>
+<circle cx="765.9" cy="137.7" r="4" fill="#d6fb97"/>
+<circle cx="915.4" cy="166.2" r="4" fill="#d6fb97"/>
+<ellipse cx="867.44" cy="126.77999999999997" rx="82" ry="57" fill="url(#halo)"/>
+<polygon points="819.5,152.2 866.5,171.7 866.5,149.7 819.5,130.2" fill="#75af87" stroke="#e0ffab" />
+<polygon points="913.5,152.2 866.5,171.7 866.5,149.7 913.5,130.2" fill="#4c837e" stroke="#e0ffab" />
+<polygon points="866.5,110.7 913.5,130.2 866.5,149.7 819.5,130.2" fill="url(#signal)" stroke="#e0ffab" />
+<polygon points="866.5,118.5 894.7,130.2 866.5,141.9 838.3,130.2" fill="none" stroke="#37695c" stroke-width="1.5"/>
+<polyline points="858.0,125.9 856.2,130.6 882.5,130.6" fill="none" stroke="#2e594f" stroke-width="3"/>
+<polyline points="938.9,157.2 961.4,166.6 987.8,155.7" fill="none" stroke="#a9cabe" stroke-width="1.2"/>
+<path d="M987.8 155.7h43v-22h14" stroke="#a9cabe" fill="none"/><circle cx="1044.8" cy="133.7" r="3" fill="#ddfb93"/>
+</g><g font-family="Menlo, Consolas, monospace" font-size="14" letter-spacing="1.4">
+<text x="1067" y="112" text-anchor="end" fill="#e6f4a7">SIGNAL 01</text>
+<text x="652" y="362" fill="#aab9d0">JOURNAL → ALERTE</text>
+</g></svg>
